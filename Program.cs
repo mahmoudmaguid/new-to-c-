@@ -21,6 +21,11 @@ namespace c_Review
              i+=2 ;
            }
 
+           foreach( int e in myarray)
+           {
+               Console.WriteLine ( "current foreach value is :"+e);
+           }
+
 
  //  PANNYET FOR START TO END
         //     Console.WriteLine(" HELLO PANNYET!"+X);
