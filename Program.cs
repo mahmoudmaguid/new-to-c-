@@ -9,10 +9,18 @@ namespace c_Review
             int [] myarray = new int[5]{ 3,4,5,6,7};
             myarray[0]=2; // UPDATE VALUE BT INDEX
             Console.WriteLine (myarray[0]); //OUTPUT A VALUE
-            for( int i=0; i<5; i++)
+            for( int y=0; y<5; y++)
            {   
-                Console.WriteLine("Array index:"+i+"| Array Value :"+myarray[i]);
+                Console.WriteLine("Array index:"+y+"| Array Value :"+myarray[y]);
            }
+             int i = 0;
+           while ( i <5) 
+           {
+             Console.WriteLine("Array index:"+i+"| Array Value :"+myarray[i]);
+             i=i+2 ;
+           }
+
+
  //  PANNYET FOR START TO END
         //     Console.WriteLine(" HELLO PANNYET!"+X);
         //  if ( X<30 )
