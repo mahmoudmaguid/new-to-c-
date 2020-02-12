@@ -17,7 +17,8 @@ namespace c_Review
            while ( i <5) 
            {
              Console.WriteLine("Array index:"+i+"| Array Value :"+myarray[i]);
-             i=i+2 ;
+             //i=i+2 ;
+             i+=2 ;
            }
 
 
