@@ -24,7 +24,12 @@ namespace c_Review
            foreach( int e in myarray)
            {
                Console.WriteLine ( "current foreach value is :"+e);
+
            }
+             
+             Console.WriteLine(" please enter your name:");
+             string myname =Console.ReadLine();
+             Console.WriteLine ("THANK YOU " +" "+ myname + "!");
 
 
  //  PANNYET FOR START TO END
