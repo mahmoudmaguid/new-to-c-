@@ -6,7 +6,10 @@ namespace c_Review
     {
         static void Main(string[] args)
         {
-            int X = 23;
+            int [] myarray = new int[5];
+            myarray[0]=2; // UPDATE VALUE BT INDEX
+            Console.WriteLine (myarray[0]); //OUTPUT A VALUE
+
  //  PANNYET FOR START TO END
         //     Console.WriteLine(" HELLO PANNYET!"+X);
         //  if ( X<30 )
