@@ -34,9 +34,15 @@ namespace c_Review
             default:
             break;
         }
+           MyMethod();
+           
       }
-
-
+     
+           // let's try making a mothod.
+            static void MyMethod()
+        {
+            Console.WriteLine("test!");
+        }
 
        }
     }
